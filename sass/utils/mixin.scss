@@ -1,0 +1,72 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin image-card {
+    width: 335px;
+    height: 175px;
+}
+
+@mixin card {
+    width: 335px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+@mixin fontionnement {
+    display: flex;
+    align-items: center;
+}
+@mixin icon-margin {
+    margin: 15px;
+}
+@mixin icon-fonctionnement {
+    background-color: #9356DC;
+    color: white;
+    padding: 5px 11px 5px 11px;
+    border-radius: 40px;
+    margin-left: -20px;
+}
+@mixin fontionnement_text{
+    display: flex;
+    align-items: center;
+    background: #f6f6f6;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 30%);
+}
+@mixin fonctionnement_hover {
+    background-color: #f5edff;
+    i {
+      color: #9356dc;
+    }      
+}
+@mixin btn {
+    background: linear-gradient(to top,#9356DC, #FF79DA);
+    border-radius: 40px;
+    padding: 17px;
+    color: white;
+    border: hidden;
+}
+
+@mixin image-card {
+    width: 335px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+@mixin cardhover {
+    box-shadow: 0px 0px 10px 0px blueviolet;
+}
+
+@mixin icon_footer {
+    margin: auto;
+    margin-right: 10px;
+}
+@mixin footer_link {
+    display: flex;
+    width: max-content;
+    margin-left: 1%;
+}

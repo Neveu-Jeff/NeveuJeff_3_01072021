@@ -1,0 +1,12 @@
+@import "../utils/mixin.scss";
+header{
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.20);
+    position: relative;
+    @include center;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    z-index: 0;
+}
